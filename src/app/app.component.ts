@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  topFunction() {
+    window.scroll({ top: 0, left: 0, behavior: 'smooth'});
+  }
   title = 'etabli-reservation';
 }
+
+ 
