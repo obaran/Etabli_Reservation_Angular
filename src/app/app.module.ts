@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TableListComponent } from './component/table-list/table-list.component';
-import { ReservationListComponent } from './component/reservation-list/reservation-list.component';
-import { ReservationEditComponent } from './component/reservation-edit/reservation-edit.component';
-import { CalendarComponent } from './component/calendar/calendar.component';
+import { TableListComponent } from './components/table-list/table-list.component';
+import { ReservationListComponent } from './components/reservation-list/reservation-list.component';
+import { ReservationEditComponent } from './components/reservation-edit/reservation-edit.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
 
 @NgModule({
   declarations: [
