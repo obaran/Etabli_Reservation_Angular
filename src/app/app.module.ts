@@ -7,6 +7,8 @@ import { TableListComponent } from './components/table-list/table-list.component
 import { ReservationListComponent } from './components/reservation-list/reservation-list.component';
 import { ReservationEditComponent } from './components/reservation-edit/reservation-edit.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CalendarComponent } from './components/calendar/calendar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BsDatepickerModule.forRoot(),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

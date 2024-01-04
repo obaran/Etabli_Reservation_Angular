@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare var $: any; 
 
 @Component({
   selector: 'app-root',
@@ -6,10 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'etabli-reservation';
+
   topFunction() {
     window.scroll({ top: 0, left: 0, behavior: 'smooth'});
   }
-  title = 'etabli-reservation';
-}
+  
+    openCalendarModal() {
+      $('#calendarModal').modal('show');
+    }
+  }
 
  
